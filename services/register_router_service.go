@@ -1,9 +1,10 @@
-package services
+// package services
 
-import (
-	"github.com/gorilla/mux"
-)
+// import (
+// 	"github.com/gorilla/mux"
+// )
 
-type IRegisterRouterService interface {
-	InitAndRegisterService(router *mux.Router)
-}
+// type IRegisterRouterService interface {
+// 	InitAndRegisterService(router *mux.Router)
+// }
+//
