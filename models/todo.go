@@ -5,7 +5,7 @@ import (
 )
 
 type (
-	todoModel struct {
+	TodoModel struct {
 		gorm.Model
 		Title     string `json:"title"`
 		Completed int    `json:"completed"`

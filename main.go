@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/karuppaiah/ims/models"
 )
 
 var db *gorm.DB
@@ -66,7 +67,7 @@ func init() {
 	}
 
 	//Migrate the schema
-	db.AutoMigrate(&todoModel{})
+	db.AutoMigrate(&models.TodoModel{})
 }
 func main() {
 	//r := setupRouter()
